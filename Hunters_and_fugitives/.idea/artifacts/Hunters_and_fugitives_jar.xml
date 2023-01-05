@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Hunters_and_fugitives:jar">
+    <output-path>$PROJECT_DIR$/../test/MCDReforged/server/plugins</output-path>
+    <root id="archive" name="Hunters_and_fugitives.jar">
+      <element id="module-output" name="Hunters_and_fugitives" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

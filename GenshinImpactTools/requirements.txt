@@ -1,0 +1,7 @@
+requests~=2.25.1
+beautifulsoup4~=4.9.3
+colorama~=0.4.4
+selenium~=3.141.0
+PyQt5>=5.15.4
+setuptools>=56.2.0
+pypiwin32>=223

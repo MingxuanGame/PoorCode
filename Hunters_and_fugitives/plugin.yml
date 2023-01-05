@@ -1,0 +1,68 @@
+name: HuntersAndFugitives
+version: 1.0
+author: MingxuanGame
+main: com.mx.haf.HuntersAndFugitives
+commands:
+  audience:
+    permission: haf.a
+    usage: /audience
+    description: 加入观众
+  fugitive:
+    permission: haf.f
+    usage: /fugitive
+    description: 加入逃亡者队
+  hunter:
+    permission: haf.h
+    usage: /hunter
+    description: 加入猎人队
+  start:
+    permission: haf.s
+    usage: /start [f/l]
+    description: （管理）启动游戏
+  gametime:
+    permission: haf.g
+    usage: /gametime <time>
+    description: （管理）设置游戏时间（整形，分数）
+  over:
+    permission: haf.o
+    usage: /over
+    description: （管理）强制结束游戏
+  leave:
+    permission: haf.l
+    usage: /leave
+    description: 退出所有队伍
+  search:
+    permission: haf.se
+    usage: /search <a/f/h/ows>
+    description: 搜索自己所在的队伍（/search ows），（管理）搜索其他队伍拥有多少人（/search <a/f/h> a：观众 f：逃亡者 h：猎人）
+  setmode:
+    permission: haf.st
+    usage: /search <false/true>
+    description: （管理）设置游戏模式（false为普通，true为速通）
+  rt:
+    permission: haf.r
+    usage: /rt
+    description: （管理）随机切换地点
+permissions:
+  haf.a:
+    default: true
+  haf.f:
+    default: true
+  haf.h:
+    default: true
+  haf.s:
+    default: op
+  haf.g:
+    default: op
+  haf.o:
+    default: op
+  haf.l:
+    default: true
+  haf.se:
+    default: true
+  haf.se.team:
+    default: op
+  haf.r:
+    default: op
+  haf.st:
+    default: op
